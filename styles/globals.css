@@ -34,6 +34,16 @@ a {
   justify-content: space-between;
   margin: 6px 18px;
   position: relative;
+  /* background-color: wheat; */
+}
+
+.whatsapp_icons {
+  display: flex;
+  font-style: italic;
+}
+
+.whatsapp_icons p {
+ margin-left: 4px;
 }
 
 .marquee-text {
@@ -207,6 +217,7 @@ span.text-red {
   display: flex;
   flex-direction: column;
   color: #324d67;
+  /* box-shadow: 3px 3px 3px white; */
 
 }
 
@@ -893,4 +904,20 @@ span.text-red {
     width: 300px;
     margin: auto;
   }
+}
+
+.NotFound {
+  background-color: gray;
+  /* background-image: url('../public/assets/earphones_a_1.webp'); */
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.backp {
+  color: yellow;
+}
+
+.backp:hover {
+  color: red;
 }

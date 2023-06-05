@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
+
 import { AiFillInstagram, AiOutlineTwitter} from 'react-icons/ai';
 
 const Footer = () => {
@@ -6,8 +8,18 @@ const Footer = () => {
     <div className="footer-container">
       <p>2023 XYZ Electronics All rights reserverd</p>
       <p className="icons">
-        <AiFillInstagram />
+      <Link href='/' target='_blank'>  
+         <AiFillInstagram />
+      </Link>
+      <Link href='/'>  
         <AiOutlineTwitter />
+        </Link>
+        <Link href='/'>  
+         <AiFillInstagram />
+      </Link>
+      <Link href='/'>  
+        <AiOutlineTwitter />
+        </Link>
       </p>
     </div>
   )
